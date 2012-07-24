@@ -182,7 +182,7 @@ public class Constants {
      * TODO: define correct type list
      */
     public static final String[] ACCEPTABLE_SHARE_OUTBOUND_TYPES = new String[] {
-        "image/*", "text/x-vcard",
+        "*", "image/*", "text/x-vcard",
     };
 
     /**
@@ -199,6 +199,7 @@ public class Constants {
      * Today, restricted to images, audio, video and certain text types.
      */
     public static final String[] ACCEPTABLE_SHARE_INBOUND_TYPES = new String[] {
+        "*",
         "image/*",
         "video/*",
         "audio/*",
